@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    margin: 10px 0;
+    padding: 3px;
+    width: 100%;
+}
+
+#heart {
+    display: flex;
+    justify-content: center;
+}
+
+#characteristics,
+#review,
+#description{
+    display: none;
+}
+
+#characteristics.show,
+#review.show,
+#description.show{
+    display: block;
+}
+
+.card-header > div.selected {
+    border-bottom: 3px solid #F23545;
+}
+
+.card-header > div {
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+}
