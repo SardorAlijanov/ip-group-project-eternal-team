@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Prod info</title>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="features-icons bg-light text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" style="display: flex;">
+                    <div class="col-xs-5">
+                        <img src="http://www.vvveb.com/vvvebjs/libs/builder/icons/image.svg" width="50%">
+                    </div>
+                    <div class="col-xs-5">
+                        <img src="http://www.vvveb.com/vvvebjs/libs/builder/icons/image.svg" width="50%">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row" style="text-align: center;">
+                        <div class="col-lg-3">
+                            <button class="btn btn-success mr-5">Buy Now</button>
+                        </div>
+                        <div class="col-lg-5">
+                            <button class="btn btn-danger">Add to cart</button>
+                        </div>
+                        <button class="btn-like" style="flex: 1;">
+                                <div class="col-lg-2 col-xl-3 like-holder"> 
+                                    <img src="images/like.svg" width="25px">
+                                </div>
+                            </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="testimonials text-center bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="card col-md-12">
+                    <nav class="card-header" style="display:flex;">
+                        <div class="Description selected" onclick="description()" style="flex: 1;padding-right: 5px;">Description</div>
+                        <div class="Reviews" onclick="reviews()" style="flex: 1;padding-right: 6px;">Reviews</div>
+                        <div class="Characteristics" onclick="characteristics()" style="flex: 1;">Characteristics</div>
+                    </nav>
+                </div>
+                <!--Можно использовать карускль-->
+                <div class="reviews col-md-12" id="review">
+                    <div class="col-md-12">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                            <img class="img-fluid rounded-circle mb-3" src="https://pm1.narvii.com/6640/60801b3500f6c027cec71fcc5cdc51fe96313eb4_00.jpg" alt="Amane Misa" width="125px">
+                            <h5>Amane Misa "Kira 2"</h5>
+                            <p class="font-weight-light mb-0">"Whatever Kira needs, will be done!"</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                            <img class="img-fluid rounded-circle mb-3" src="https://wallpaperaccess.com/full/1401172.jpg" alt="Amane Misa" width="30%">
+                            <h5> "Shinobu Kocho"</h5>
+                            <p class="font-weight-light mb-0">"Why, am I so small?"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Description col-md-12 show" id="description">
+                    <div class="col-md-12">
+                        <div class="row" style="display:flex;">
+                            <img src="http://www.vvveb.com/vvvebjs/libs/builder/icons/image.svg" height="128" width="128" style="flex:1;">
+                            <img src="http://www.vvveb.com/vvvebjs/libs/builder/icons/image.svg" height="128" width="128" style="flex:1;">
+                            <img src="http://www.vvveb.com/vvvebjs/libs/builder/icons/image.svg" height="128" width="128" style="flex:1;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Characteristics col-md-12" id="characteristics">
+                    <div class="col-md-12">
+                        <div class="row" style="display:flex;">
+                            <img src="http://www.vvveb.com/vvvebjs/libs/builder/icons/image.svg" height="128" width="128" style="flex:1;">
+                            <img src="http://www.vvveb.com/vvvebjs/libs/builder/icons/image.svg" height="128" width="128" style="flex:1;">
+                            <img src="http://www.vvveb.com/vvvebjs/libs/builder/icons/image.svg" height="128" width="128" style="flex:1;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="list-inline-item">|</li>
+                        <li class="list-inline-item">
+                            <a href="#">Contact</a>
+                        </li>
+                        <li class="list-inline-item">|</li>
+                        <li class="list-inline-item">
+                            <a href="#">Terms of Use</a>
+                        </li>
+                        <li class="list-inline-item">|</li>
+                        <li class="list-inline-item">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                    <p class="text-muted small mb-4 mb-lg-0">© Mum Buy 2020. All Rights Reserved.</p>
+                </div>
+            </div>
+    </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="infoChanger.js" type="text/javascript"></script>
+</body>
+
+</html>
